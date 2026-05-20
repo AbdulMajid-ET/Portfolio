@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spongebob</title>
+    <link rel="stylesheet" href="style.css">
+     <script src="index.js"></script>
+     <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "A1WqApyK5WMMtr8eX",
+      });
+   })();
+</script>
+     
+</head>
+<body>
+    <header>
+        <div class="title">Portfolio</div>
+        <nav class="navbar">
+            <nav class="navbar">
+                <ul>
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#About">About</a>
+                    </li>
+                    <li>
+                        <a href="#Skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#Projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+
+    <section id="home" class="home-section">
+        <div class="home-content">
+                <h1>Hello, I'm Majid</h1>
+                <h3>Aspiring Web Developer</h3>
+                <p><b>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                   Sed doloremque possimus id sit a nesciunt fugiat corrupti labore?
+                   Pariatur quos impedit facere quae id molestias cumque eveniet distinctio
+                   ab illo!</p>
+                <div class="submit">
+                    <div class="home-sci">
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+        </div>
+        <div class="image">
+            <img src="./images/majid.jpg">
+
+        </div>
+    </section>
+
+    <section  id="About" class="about-section">
+        <div class="about-content">
+            <h1>About me</h1>
+            <h3>Student at bridgeon</h3>
+            <p>I'm passionate in IT Currently,
+               I am Intern at Bridgeon Hub, where I am developing both my technical
+               skills and soft skills.</p>
+        </div>
+    </section>
+
+    <section id="Skills" class="skill-section">
+        <div class="skill-content">
+            <h1>Skills</h1>
+            <p>I know basics of HTML and CSS</p>
+
+        </div>
+
+    </section>
+    <section id="Projects" class="project-section">
+        <div class="project-content">
+        <h1>Projects</h1>
+        <h3>Navigation bar</h3>
+        <p>Nav bar of w3school</p>
+        </div>
+        <div class="screenshot">
+            <img src="./images/w3schoolnavbar.png">
+        </div>
+    </section>
+    <section>
+        <div class="contact">
+            <h1>Contact me</h1>
+            <label for="name">username:</label>
+            <input type="text" id="name" placeholder=""><br><br>
+
+            <label for="email">email:</label>
+            <input type="email" id="email" placeholder=""><br><br>
+
+            <label for="message">massage:</label>
+            <textarea id="message" class="form-control"></textarea><br><br>
+
+            <input type="button" onclick="sendMail()" value="send message">
+        </div>
+
+    </section>
+    
+</body> 
+</html>

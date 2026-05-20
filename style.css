@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: white;
+    color: black;
+    align-items: center;
+
+}
+
+header .title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header .navbar ul {
+    display: flex;
+    margin: 0;
+    margin-left: auto;
+}
+
+header li {
+    list-style: none;
+    text-decoration: none;
+    padding: 0 20px;
+
+}
+
+header li a {
+    text-decoration: none;
+    color: black;
+
+}
+header .navbar a:hover {
+    background-color: grey;
+    color: white;
+    padding: 13px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.home-section {
+    margin: 6em;
+    display: flex;
+    justify-content: space-between;
+
+}
+.image img {
+    width: 300px;
+    border-radius: 20px;
+}
+.home-content {
+    max-width: 600px;
+    color: black;
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.home-content h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+.home-content p {
+    margin: 20px 0 40px ;
+}
+.home-content .box {
+    justify-content: center;
+    width: 345px;
+    height: 50px;
+}
+
+.about-section {
+    margin: 6rem;
+}
+.about-content {
+    max-width: 600px;
+    color: black;
+}
+
+.about-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.about-content h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+.about-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.skill-section {
+    margin: 6rem;
+}
+.skill-content {
+    max-width: 600px;
+    color: black;
+}
+
+.skill-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.skill-content p {
+    color: black;
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+.project-section {
+    margin: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.project-content {
+    max-width: 600px;
+    color: black;
+}
+
+.project-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.project-content h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+.project-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+.screenshot img {
+    border-radius: 8px;
+    width: 500px;
+    height: 300px;
+
+}
+.contact {
+    justify-content: center;
+    align-items: center;
+    margin-left: 30em;
+}
+
+.contact h1 {
+    margin: 6rem;
+    color: black;
+}
